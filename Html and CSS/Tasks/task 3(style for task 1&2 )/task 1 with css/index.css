@@ -1,0 +1,40 @@
+.s{
+    color: black;
+    background-color: #6D6875;
+
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+
+.s nav ul li{
+    color: black;
+    display: inline;
+  
+    
+}
+.s nav ul li a{
+    color: azure;
+    size-adjust: 40cm;
+}
+
+.imgs{
+    width: 100%;
+    display: flex;
+    direction: row;
+}
+.SER{
+    
+}
+body{
+    background-color:  #A79AAE ;
+ 
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #6D6875;
+ 
+}

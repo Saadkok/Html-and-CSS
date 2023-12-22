@@ -1,0 +1,167 @@
+h2 {
+    color: rgb(55, 8, 99);
+}
+
+div {
+    background-color: white;
+}
+
+#s {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img {
+    width: 40%;
+    height: 20%;
+    border: 4px solid black;
+    background-color: aqua;
+    padding: 1%;
+    margin: 1%;
+
+
+}
+
+#b1 {
+    width: 100px;
+    height: 100px;
+    border: 10px dashed black;
+}
+
+#b2 {
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+}
+
+#b3 {
+    width: 100px;
+    height: 100px;
+    border: 10px ridge black;
+
+}
+
+.c {
+    width: 50%;
+    background-color: lightskyblue;
+}
+
+#ok {
+    color: blue;
+}
+
+.grad {
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(to right, red, blue, green);
+    background-size: cover;
+}
+
+.grad1 {
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(to bottom, cyan, magenta, yellow);
+    background-size: cover;
+}
+
+.grad2 {
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(to bottom, rgb(55, 8, 99), rgba(55, 8, 99, 0));
+    background-size: cover;
+}
+
+.grad3 {
+    width: 400px;
+    height: 150px;
+    background: radial-gradient(red, yellow, white, purple, black)
+}
+
+.grad4 {
+    width: 400px;
+    height: 150px;
+    background: radial-gradient(circle, red 40%, green 30%, blue);
+}
+
+.container_1 {
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 2px solid green;
+    display: flex;
+}
+
+.ci_1 {
+    background-color: green;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+}
+
+.container_11 {
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.container_12 {
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container_13{
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+.container_15{
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 2px solid green;
+    display: flex;
+    width: 400PX;
+    height: 300PX;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.G_1 {
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.ciG_1 {
+   
+    color: black;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+}
+
+

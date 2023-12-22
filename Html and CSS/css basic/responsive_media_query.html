@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Styles for screens smaller than 600px */
+    @media (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    /* Styles for screens between 601px and 1200px */
+    @media (min-width: 601px) and (max-width: 1200px) {
+      body {
+        background-color: lightgreen;
+      }
+      h1 {
+        font-size: 36px;
+      }
+    }
+
+    /* Styles for screens larger than 1200px */
+    @media (min-width: 1201px) {
+      body {
+        background-color: lightyellow;
+      }
+      h1 {
+        font-size: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Design Example</h1>
+  <p>This is an example of how to use media queries in HTML and CSS.</p>
+</body>
+</html>
